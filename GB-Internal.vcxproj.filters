@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{fde39c93-ba7b-4a21-80fb-710deaa43839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\sdk">
+      <UniqueIdentifier>{f6e89636-821c-433f-92c6-c8c455b1f4bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_Basic.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_CoreUObject_classes.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_CoreUObject_parameters.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_CoreUObject_structs.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_Engine_parameters.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_Engine_classes.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_Engine_structs.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_GroundBranch_parameters.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_GroundBranch_classes.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GB_GroundBranch_structs.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\GB_Basic.cpp">
+      <Filter>game\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GB_CoreUObject_functions.cpp">
+      <Filter>game\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GB_Engine_functions.cpp">
+      <Filter>game\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="SDK\GB_GroundBranch_functions.cpp">
+      <Filter>game\sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
